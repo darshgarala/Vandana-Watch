@@ -1,0 +1,95 @@
+.btn_logout {
+  color: rgb(231, 231, 231);
+  border: 1px solid rgb(64, 64, 64);
+  background-color: rgb(93, 93, 93);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn_logout:hover {
+  color: black;
+  border: 1px solid rgb(63, 62, 62);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn_logout1 {
+  color: rgb(231, 231, 231);
+  border: 1px solid rgb(64, 64, 64);
+  background-color: rgb(93, 93, 93);
+  border-radius: 5px;
+  padding: 5px;
+  /* cursor: pointer; */
+}
+.btn_logout1:hover {
+  color: black;
+  border: 1px solid rgb(63, 62, 62);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  /* cursor: pointer; */
+}
+.menu {
+  margin-left: 20px;
+}
+.acc {
+  margin: 30px;
+  font-size: 14px;
+  margin-bottom: -13px;
+  color: pink;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-top: -7px;
+  padding: 9px;
+}
+
+.acc:hover {
+  /* scroll-padding: 2px; */
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  animation: pluse5 2s infinite;
+}
+
+@keyframes pluse5 {
+  0% {
+    box-shadow: 0 0 0 0 #abaced;
+  }
+  50% {
+    box-shadow: 0 0 0 20px transparent;
+  }
+}
+
+.profil_update {
+  margin-top: 10px;
+  border: 1px solid red;
+  text-decoration: none;
+  color: rgb(231, 231, 231);
+  border: 1px solid rgb(64, 64, 64);
+  background-color: rgb(93, 93, 93);
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.profil_update:hover {
+  color: black;
+  border: 1px solid rgb(63, 62, 62);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 2px;
+  cursor: pointer;
+}
+.profil_update1{
+    text-decoration: none;
+    color: aliceblue;
+}
+.profil_update1:hover{
+    color: black;
+
+}

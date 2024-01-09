@@ -1,0 +1,30 @@
+.main_add {
+  text-align: center;
+}
+.A_add {
+  border: 2px solid rgb(101, 101, 101);
+
+  width: 500px;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 20px 20px;
+  background-color: rgb(252, 241, 228);
+  border-radius: 30px;
+}
+.Add1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin-left: 340px;
+}
+.A_A {
+  color: peru;
+  color: rgb(57, 56, 56);
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 20px;
+}
+

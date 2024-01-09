@@ -1,0 +1,121 @@
+.collaction{
+    font-size: 40px;
+    font-weight:bold;
+    color: rgb(51, 50, 50);
+    font-variant: small-caps;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* text-shadow: 5px 4px 4px  rgb(90, 90, 90); */
+}
+
+.two_img_div{
+    margin-top: 40px;
+    padding: 30px;
+    border: 2px solid rgb(194, 193, 193);
+    display: flex;
+    flex-direction: row;
+    height: 470px;
+    width: auto;
+    background-color: rgb(231, 231, 231);
+    padding-bottom: -10px;
+    display:flex;
+    flex-direction: column;
+}
+.in_two_img{
+    margin-top: -0px;
+    display: flex;
+    flex-direction: row;
+}
+.man{
+    margin-left: 100px;
+    width: 380px;
+    height: 300px;
+    border: 3px solid rgb(177, 179, 179);
+    border-radius: 10px;
+    opacity:78%;
+    cursor: pointer;
+    margin-top: 20px;
+    z-index: -1;
+}
+.man:hover{
+    margin-left: 100px;
+    width: 380px;
+    height: 300px;
+    border: 3px solid rgb(177, 179, 179);
+    border-radius: 10px;
+    opacity:95%;
+    cursor: pointer;
+    margin-top: 20px;
+    transition:3s;
+    z-index: -1;
+}
+
+.women{
+    margin-left: 210px;
+    height: 300px;
+    width: 380px;
+    border: 3px solid rgb(177, 179, 179);
+    border-radius: 10px;
+    opacity:78%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.women:hover{
+    margin-left: 210px;
+    height: 300px;
+    width: 380px;
+    border: 3px solid rgb(177, 179, 179);
+    border-radius: 10px;
+    opacity:95%;
+    transition: 3s;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.w_man{
+    position:absolute;
+    z-index: 1;
+    margin-top: -90px;
+    margin-left: 340px;
+    font-size: 30px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 100px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.w_women{
+    position:absolute;
+    z-index: 1;
+    margin-top: -90px;
+    margin-left: 430px;
+    font-size: 30px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 100px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon_share{
+    position: absolute;
+    z-index: 1;
+    margin-top: -27px;
+    margin-left: 470px;
+    cursor: pointer;
+}
+.icon_div{
+    display: flex;
+    flex-direction: row;
+}
+.icon_share1{
+    position: absolute;
+    margin-top: -28px;
+    z-index: 1;
+    margin-left: 555px;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.pro1{
+    margin-top: 50px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-right: 220px;
+    margin-left: 220px;
+    height: 550px;
+    background-color: antiquewhite;
+    /* text-align: center; */
+    /* justify-items: center; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:510;
+    margin-bottom: 40px;
+}
+.pro11
+{
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 10px 10px;
+    height: 120px;
+    cursor: pointer;
+}
+.pro12{
+    /* margin-top: 10px; */
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.change_pass{
+    border-radius: 20px;
+    padding: 2px 2px;
+    border: 3px solid rgb(71, 71, 71);
+    margin-left: 10px;
+    margin-right: 60px;
+}

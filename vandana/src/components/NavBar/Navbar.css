@@ -1,0 +1,56 @@
+.main_nav{
+    padding: 10px;
+    display: flex;
+    background-color: #FFE569;
+    /* background-color:rgb(255,215,0); */
+
+    margin: 0px auto;
+    border-bottom: 0.6px solid black;
+}
+.nav_b1{
+    padding: 4px;
+    border: none;
+    color: #557A46;
+    margin-left:170px;
+    background-color: #FFE569;
+    /* background-color: rgb(255,215,0); */
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav_b1::after{
+    content: '';
+    display: block;
+    height: 4px;
+    border-bottom-right-radius: 100px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: #557A46;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+.nav_b1:hover::after{
+    transform: scaleX(1);
+}
+
+/* this is a pluse code */
+
+/* .nav_b1:hover{
+    animation: pluse 3s infinite;
+    color: black;
+    border-radius: 60px;
+    opacity: 0.6;
+}
+@keyframes pluse{
+    0%{
+        box-shadow: 0 0 0 0 #abaced;
+    }
+    65%{
+        box-shadow: 0 0 0 10px transparent;
+    }
+    100%{
+        box-shadow: 0 0 0 0 transparent;
+    }
+} */

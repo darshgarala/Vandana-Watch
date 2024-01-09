@@ -1,0 +1,118 @@
+.main_div{
+    display: flex;
+    background-color:rgb(12, 12, 12);
+    justify-content: center;
+}
+
+.search{
+    margin-top: 20px;
+    padding: 9px;
+    height: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+.search:hover{
+    margin-top: 20px;
+    padding: 9px;
+    height: 10px;
+    width: 400px;
+    border-radius: 5px; 
+}
+.search:focus{
+    outline: none;
+}
+.logo_img{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search_icon{
+    margin: 25px;
+    height: 17px;
+    margin-left: -27px;
+    cursor: pointer;
+    color: black;
+}
+
+/* cart */
+.cart{
+    height: 22px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+/* heart icon */
+.heart_icon{
+    cursor: pointer;
+    height: 20px;
+    color: red;
+}
+
+.heart_cart{
+    margin-top: 22px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.login_icon{
+    margin-left: 40px;
+    cursor: pointer;
+    height: 20px;
+    color: white;
+}
+
+.login_icon:hover{
+    /* scroll-padding: 2px; */
+    border-radius: 30px;
+    animation: pluse3 2s infinite;
+}
+
+@keyframes pluse3{
+    0%{
+        box-shadow: 0 0 0 0 #abaced;
+    }
+    50%{
+        box-shadow: 0 0 0 20px transparent;
+    }
+
+}
+
+.login_btn_2{
+    color: rgb(244, 66, 66);
+    text-align: center;
+    background-color:black;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: -4px;
+    margin-left: 20px;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+}
+.login_btn_2:hover{
+    border-radius: 30px;
+    animation: pluse4 2s infinite;
+}
+
+.cart:hover{
+    /* scroll-padding: 2px; */
+    border-radius: 30px;
+    animation: pluse4 2s infinite;
+}
+
+@keyframes pluse4{
+    0%{
+        box-shadow: 0 0 0 0 #abaced;
+    }
+    50%{
+        box-shadow: 0 0 0 20px transparent;
+    }
+}
+
+

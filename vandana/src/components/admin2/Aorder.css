@@ -1,0 +1,35 @@
+.A_order {
+  color: peru;
+  margin-left: 550px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.A_products {
+  color: peru;
+  margin-left: 550px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.f1 {
+  color: red;
+  height: 300px;
+  width: 300px;
+}
+.f2 {
+  color: green;
+  height: 300px;
+  width: 300px;
+}
+
+.rem_A{
+  height: 200px;
+  width: 500px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 20px;
+}

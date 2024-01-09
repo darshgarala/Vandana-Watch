@@ -1,0 +1,141 @@
+
+.login{
+    display: flex;
+    height: 380px;
+    width: 568px;
+    background-color:#FCE9F1;
+    background-color:#ccc5b9;
+    border: 5px solid #157a6e;
+    border: 5px solid #136f63;
+    
+}
+
+.error_msg{
+    margin-top: -1px;
+    color: red;
+}
+
+.logo1{
+    margin-top: 90px;
+    height: 200px;
+    width:fit-content;
+    position: sticky;
+}
+
+.logni_img{
+    background-color: black;
+    position: sticky;
+}
+.login_data{
+    margin-top: 20px;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.login_btn{
+    margin-left: 70px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:2px solid #94bcc4;
+}
+.login_OTP{
+    text-decoration: none;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.login_btn:hover{
+    margin-left: 70px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #524632;
+}
+.login{
+    overflow-y:scroll;    
+}
+.login::-webkit-scrollbar{
+    display: none;
+}
+input{
+    margin-top: 6px;
+    width: 300px;
+    height: 25px;
+    border-radius: 4px;
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+}
+input:hover{
+    
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-color: #1b2f33;
+    box-shadow: 0px 3px 3px 0px #1b2f33;
+
+}
+input:focus{
+    outline:none;
+}
+.login_new_acc{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.signuptologin{
+    margin: -10px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+.or{
+    text-align: center;
+}
+.text{
+    display: flex;
+    margin-top: -250px;
+    justify-content: center;
+    font-size: 25px;
+    color:#edc8ae;
+    text-shadow: #fc0 1px 0 10px;;
+    font-family: 'Courier New', Courier, monospace;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* sign up */
+
+.signup{
+    overflow-y:scroll;    
+}
+.signup::-webkit-scrollbar{
+    display: none;
+}
+.signup_data{
+    margin-top: 20px;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.signup_btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:2px solid #94bcc4;
+}
+.signup_btn:hover{
+    margin-left: 70px;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #524632;
+}

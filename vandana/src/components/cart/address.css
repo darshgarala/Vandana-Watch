@@ -1,0 +1,38 @@
+.address_detail {
+  margin-left: 500px;
+  font-style: normal;
+  /* font-size: large; */
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(91, 91, 91);
+}
+.login1 {
+  padding: 80px 20px;
+  /* height: 1000px; */
+  width: 600px;
+  margin: 40px 320px;
+  text-align: center;
+  /* justify-content: center; */
+  background-color: rgb(253, 237, 216);
+  border: 2px solid rgb(96, 96, 96);
+  border-radius: 20px;
+}
+
+.address_img {
+    margin-top: -60px;
+  height: 250px;
+}
+.img_add{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(82, 82, 82);
+    font-size: 17px;
+    font-weight:600;
+}
+.add_text{
+    margin-top: -30px;
+    justify-content: center;
+    margin-left:70px ;
+}
+.add_of_main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
